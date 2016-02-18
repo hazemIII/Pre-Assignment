@@ -13,9 +13,19 @@ class BST :
         self.root = val
     def getval(self):
         return self.root
-    def insert(self,val):
-        if (self.root > val):self.left = BST(val)
-        elif (self.root < val): self.right = BST(val)
+    def insert(self,item):
+        if (item < self.getval()):
+            if (self.left != None):
+                self.left.insert(item)
+            else:
+                self.left = BST(item)
+        else:
+            if (self.right != None):
+                self.right.insert(item)
+            else:
+                self.right = BST(item)
+
+
     def inorder (tree):
         if tree != None:
             if tree.left !=None:
