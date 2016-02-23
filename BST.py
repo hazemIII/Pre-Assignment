@@ -34,11 +34,12 @@ class BST :
             if tree.right !=None:
                 BST.inorder(tree.right)
 
-    def stepCounter (tree , counter=0):
+    def stepCounter (tree , counter=0 ):
         if tree != None:
             if tree.left !=None:
                 counter=BST.stepCounter(tree.left , counter+1)
 
             if tree.right !=None:
                 counter=BST.stepCounter(tree.right , counter+1)
+
         return counter

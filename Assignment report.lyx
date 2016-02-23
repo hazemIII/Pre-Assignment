@@ -111,6 +111,7 @@ To make a program that randomly generates trees in range of 50- 100 items.
 \begin_layout Standard
 To test the theory given in the assignment that In-order traversal has O(n-1)
  complexity.
+ with (n-1) calls will cost 2(n-1)
 \end_layout
 
 \begin_layout Subsection
@@ -132,9 +133,9 @@ status collapsed
 \begin_inset Tabular
 <lyxtabular version="3" rows="51" columns="1">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="decimal" decimal_point="." valignment="top">
+<column alignment="center" valignment="top">
 <row>
-<cell alignment="decimal" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -151,14 +152,14 @@ status collapsed
 \noun off
 \color none
   no.
-    number of items    number of steps
+    number of items    number of calls    number of steps
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -174,14 +175,14 @@ status collapsed
 \uwave off
 \noun off
 \color none
------  -----------------  -----------------
+-----  -----------------  -----------------  -----------------
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -197,30 +198,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    0         
-\begin_inset space \space{}
+    0     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       94        
-\begin_inset space \space{}
+           75       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         93
+          74        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        148
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -236,30 +245,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    1        
-\begin_inset space \space{}
+    1         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         64          
-\begin_inset space \space{}
+        60         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       63
+        59       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         118
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -275,30 +292,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    2           
-\begin_inset space \space{}
+    2          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      60         
-\begin_inset space \space{}
+       59       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        59
+          58        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        116
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -314,30 +339,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    3        
-\begin_inset space \space{}
+    3       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         76         
-\begin_inset space \space{}
+          84        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        75
+         83      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          166
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -353,30 +386,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    4         
-\begin_inset space \space{}
+    4     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        65          
-\begin_inset space \space{}
+            78      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       64
+           77      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          154
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -392,30 +433,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    5          
-\begin_inset space \space{}
+    5         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       75           
-\begin_inset space \space{}
+        60             
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      74
+    59      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          118
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -431,30 +480,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    6           
-\begin_inset space \space{}
+    6        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      80            
-\begin_inset space \space{}
+         73       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     79
+          72          
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+      144
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -470,30 +527,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    7            
-\begin_inset space \space{}
+    7         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     82             
-\begin_inset space \space{}
+        83           
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    81
+      82     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           164
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -509,30 +574,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    8             
-\begin_inset space \space{}
+    8      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    90              
-\begin_inset space \space{}
+           92     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   89
+            91          
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+      182
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -548,30 +621,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-    9           
-\begin_inset space \space{}
+    9       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   55      
-\begin_inset space \space{}
+          58        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           54
+         57       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         114
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -587,30 +668,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   10           
-\begin_inset space \space{}
+   10       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      58     
-\begin_inset space \space{}
+          72      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           57
+           71       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         142
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -626,30 +715,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   11            
-\begin_inset space \space{}
+   11       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     83       
-\begin_inset space \space{}
+          90      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          82
+           89         
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+       178
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -665,30 +762,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   12             
-\begin_inset space \space{}
+   12          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    97        
-\begin_inset space \space{}
+       95        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         96
+         94       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         188
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -704,30 +809,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   13              
-\begin_inset space \space{}
+   13       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   68         
-\begin_inset space \space{}
+          57       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        67
+          56     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           112
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -743,30 +856,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   14               
-\begin_inset space \space{}
+   14         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-  79          
-\begin_inset space \space{}
+        76       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       78
+          75      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         150
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -782,30 +903,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   15                
-\begin_inset space \space{}
+   15           
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
- 79           
-\begin_inset space \space{}
+      52             
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      78
+    51       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         102
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -821,30 +950,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   16                 
-\begin_inset space \space{}
+   16      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-54            
-\begin_inset space \space{}
+           68         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     53
+        67     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           134
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -860,30 +997,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   17          
-\begin_inset space \space{}
+   17       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
- 58                
-\begin_inset space \space{}
+          64        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
- 57
+         63    
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+            126
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -899,30 +1044,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   18    
-\begin_inset space \space{}
+   18     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-            68    
-\begin_inset space \space{}
+            80        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-             67
+         79     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           158
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -939,29 +1092,37 @@ status collapsed
 \noun off
 \color none
    19      
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          100    
-\begin_inset space \space{}
+           61       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-             99
+          60      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          120
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -977,30 +1138,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   20       
-\begin_inset space \space{}
+   20     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          59      
-\begin_inset space \space{}
+            74        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           58
+         73        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        146
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1016,30 +1185,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   21        
-\begin_inset space \space{}
+21       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         74       
-\begin_inset space \space{}
+          85       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          73
+          84     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           168
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1055,30 +1232,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   22         
-\begin_inset space \space{}
+   22    
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        89        
-\begin_inset space \space{}
+             53        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         88
+         52     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           104
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1094,30 +1279,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   23          
-\begin_inset space \space{}
+   23      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       93         
-\begin_inset space \space{}
+           80       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        92
+          79     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           158
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1133,30 +1326,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   24       
-\begin_inset space \space{}
+   24           
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          80          
-\begin_inset space \space{}
+      86    
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       79
+             85     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           170
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1172,30 +1373,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   25        
-\begin_inset space \space{}
+   25       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         95           
-\begin_inset space \space{}
+          71        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      94
+        70         
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+       140
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1211,30 +1420,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   26         
-\begin_inset space \space{}
+   26       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        61            
-\begin_inset space \space{}
+          99      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     60
+           98     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           196
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1250,30 +1467,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   27          
-\begin_inset space \space{}
+   27        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       51             
-\begin_inset space \space{}
+         53         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    50
+        52         
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+       104
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1289,30 +1514,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   28           
-\begin_inset space \space{}
+   28        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      52              
-\begin_inset space \space{}
+         66       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   51
+         65          
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+      130
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1328,30 +1561,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   29            
-\begin_inset space \space{}
+   29        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     52               
-\begin_inset space \space{}
+         79        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-  51
+         78      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          156
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1367,30 +1608,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   30  
-\begin_inset space \space{}
+   30        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-              82       
-\begin_inset space \space{}
+         98        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          81
+         97      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          194
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1406,30 +1655,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   31    
-\begin_inset space \space{}
+   31      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-             50        
-\begin_inset space \space{}
+           82         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         49
+        81     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           162
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1445,30 +1702,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   32     
-\begin_inset space \space{}
+   32        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-            75    
-\begin_inset space \space{}
+         90      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        74
+           89    
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+            178
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1484,30 +1749,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   33      
-\begin_inset space \space{}
+   33       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           60        
-\begin_inset space \space{}
+          92        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         59
+         91     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           182
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1523,30 +1796,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   34       
-\begin_inset space \space{}
+   34      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          91         
-\begin_inset space \space{}
+           96      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        90
+           95        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        190
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1563,29 +1844,37 @@ status collapsed
 \noun off
 \color none
    35        
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         98          
-\begin_inset space \space{}
+         69          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       97
+       68      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          136
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1601,30 +1890,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   36         
-\begin_inset space \space{}
+   36        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        66           
-\begin_inset space \space{}
+         94       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      65
+          93    
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+            186
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1640,30 +1937,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   37          
-\begin_inset space \space{}
+   37      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      76             
-\begin_inset space \space{}
+           82     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    75
+            81         
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+       162
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1679,30 +1984,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   38            
-\begin_inset space \space{}
+38    
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     82              
-\begin_inset space \space{}
+             50            
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   81
+     49           
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+      98
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1718,30 +2031,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   39             
-\begin_inset space \space{}
+   39      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    56               
-\begin_inset space \space{}
+           52      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-  55
+           51        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        102
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1757,30 +2078,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   40              
-\begin_inset space \space{}
+   40        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-   66    
-\begin_inset space \space{}
+         54      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-            65
+           53     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           106
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1796,30 +2125,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   41               
-\begin_inset space \space{}
+   41          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-  64      
-\begin_inset space \space{}
+       80       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           63
+          79   
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+             158
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1835,30 +2172,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   42   
-\begin_inset space \space{}
+   42         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-             87        
-\begin_inset space \space{}
+        52        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         86
+         51      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          102
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1874,30 +2219,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   43     
-\begin_inset space \space{}
+   43       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-            80         
-\begin_inset space \space{}
+          82          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-        79
+       81       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         162
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1913,30 +2266,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   44      
-\begin_inset space \space{}
+   44        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-           96          
-\begin_inset space \space{}
+         60      
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-       95
+           59       
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+         118
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1952,30 +2313,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   45       
-\begin_inset space \space{}
+   45     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-          52           
-\begin_inset space \space{}
+            67          
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      51
+       66        
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+        132
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1992,29 +2361,37 @@ status collapsed
 \noun off
 \color none
    46        
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-         60            
-\begin_inset space \space{}
+         66       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-     59
+          65      
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+          130
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2030,30 +2407,38 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   47          
-\begin_inset space \space{}
+   47       
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      100             
-\begin_inset space \space{}
+          64         
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-    99
+        63    
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+            126
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="decimal" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2069,23 +2454,31 @@ status collapsed
 \uwave off
 \noun off
 \color none
-   49           
-\begin_inset space \space{}
+   49     
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-      73               
-\begin_inset space \space{}
+            92        
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset space \space{}
+\begin_inset space ~
 \end_inset
 
-  72
+         91     
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+           182
 \end_layout
 
 \end_inset
@@ -2103,7 +2496,7 @@ status collapsed
 
 \begin_layout Plain Layout
 Results from In-order traversal.
- Shown number of iteration, number of items and number of steps 
+ Shown number of iteration, number of items and number of calls 
 \end_layout
 
 \end_inset
@@ -2122,8 +2515,16 @@ Results from In-order traversal.
 
 \begin_layout Standard
 Results are matching the theory and the output of the program showed that,
- the number of steps taken is n-1.
- Hence, the complexity is O(n-1) as Amortized analysis predict.
+ the number of calls is n-1.
+ Hence, the total number of steps is 2(n-1) and the complexity is 2(n-1)
+ as Amortized analysis predict.
+ As, every call cost 2 (2 traversal each time).
+ The worst case is so pessimistic with O(n
+\begin_inset Formula $^{2}$
+\end_inset
+
+) complexity, but amortized analysis show a real complexity of 2(n-1) for
+ (n-1) calls, which is lower than worst case with a respectful amount.
 \end_layout
 
 \begin_layout Subsection
@@ -2449,17 +2850,14 @@ print(tabulate(table[1:51] , headers= ["no." , "number of items" ,"number
 \end_layout
 
 \begin_layout Standard
-Please refer to
-
+Please refer to 
 \begin_inset CommandInset href
 LatexCommand href
-name "github repository"
+name "This github repository"
 target "https://goo.gl/EfX2Wa"
 
 \end_inset
 
-
-\lang english
  for better visual and formatting.
 \end_layout
 
@@ -2472,6 +2870,209 @@ target "https://goo.gl/EfX2Wa"
 
 \begin_layout Section
 Task II
+\end_layout
+
+\begin_layout Standard
+Amortized analysis over a stack operation m
+\begin_inset Formula $_{1}$
+\end_inset
+
+pushes and m
+\begin_inset Formula $_{2}$
+\end_inset
+
+pops
+\end_layout
+
+\begin_layout Subsection*
+Assumption:
+\end_layout
+
+\begin_layout Itemize
+Stack is initially empty.
+\end_layout
+
+\begin_layout Itemize
+pop(k) preform a multi-pop k times.
+\end_layout
+
+\begin_layout Subsection*
+Using Aggregate method:
+\end_layout
+
+\begin_layout Standard
+If the stack is empty initially.
+ 
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula $m_{1}=n$
+\end_inset
+
+ , where n is the stack length.
+\end_layout
+
+\begin_layout Standard
+so, 
+\begin_inset Formula $m_{1}$
+\end_inset
+
+calls to push(x) cost 
+\begin_inset Formula $m{}_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If pop(k) use multi pops k times then the max number of pops is n.
+ lets assume that pop(k) cost 
+\begin_inset Formula $m_{2}n$
+\end_inset
+
+ where 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+is 
+\end_layout
+
+\begin_layout Standard
+In the worst case, 
+\begin_inset Formula $m{}_{2}n\leq m_{1}$
+\end_inset
+
+.
+ as we can't pop more than the number of elements in the stack 
+\begin_inset Formula $m{}_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+thus, 
+\begin_inset Formula $m{}_{2}n=m_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $m{}_{1}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so, the complexity now = 2
+\begin_inset Formula $m{}_{1}=2n$
+\end_inset
+
+ for the n operations.
+ 
+\end_layout
+
+\begin_layout Standard
+single operation = 
+\begin_inset Formula $\frac{2n}{n}=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\therefore actual$
+\end_inset
+
+
+\begin_inset Formula $\,cost\,2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Same will be valid if pop(k) is preforming pop for the item with index k
+ as n pushes cost n and pop(k) in worst case will cost n as well, the total
+ cost will be 2n and for single operation that will cost 2 as previousally
+ mentioned.
+\end_layout
+
+\begin_layout Section
+References 
+\end_layout
+
+\begin_layout Itemize
+http://www.cs.cornell.edu/courses/cs3110/2011sp/lectures/lec20-amortized/amortized.h
+tm
+\end_layout
+
+\begin_layout Itemize
+https://www.youtube.com/watch?v=UYcWpldlX-o
+\end_layout
+
+\begin_layout Itemize
+https://www.youtube.com/watch?v=B3SpQZaAZP4
+\end_layout
+
+\begin_layout Subsection
+References for task I 
+\end_layout
+
+\begin_layout Itemize
+https://docs.python.org/2/library/random.html
+\end_layout
+
+\begin_layout Itemize
+http://effbot.org/pyfaq/how-do-i-generate-random-numbers-in-python.htm
+\end_layout
+
+\begin_layout Itemize
+http://www.pythonschool.net/data-structures-algorithms/binary-tree/
+\end_layout
+
+\begin_layout Itemize
+https://pypi.python.org/pypi/tabulate
+\end_layout
+
+\begin_layout Subsection
+References for task II
+\end_layout
+
+\begin_layout Itemize
+http://interactivepython.org/runestone/static/pythonds/BasicDS/ImplementingaStack
+inPython.html
+\end_layout
+
+\begin_layout Itemize
+http://www.cs.toronto.edu/~krueger/cscB63h/lectures/tut08.txt
+\end_layout
+
+\begin_layout Section*
+Source codes are available on 
+\begin_inset CommandInset href
+LatexCommand href
+name "My github repository"
+target "https://goo.gl/EfX2Wa"
+
+\end_inset
+
+ (link)
+\end_layout
+
+\begin_layout Standard
+my github account : 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/hazemIII
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

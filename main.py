@@ -10,6 +10,6 @@ for i in range(51):  #creating 50 different trees
     for j in range(1,size):    #inserting items in the tree
         tree.insert(items[j])
     counter = BST.stepCounter(tree)
-    table.append([i , size , counter])
+    table.append([i , size , counter , 2*counter])
 
-print(tabulate(table[1:51] , headers= ["no." , "number of items" ,"number of steps" ]))
+print(tabulate(table[1:51] , headers= ["no." , "number of items" ,"number of calls" ,"number of steps"  ]))
